@@ -1,0 +1,99 @@
+Model Performance on education Slices
+================================================================================
+
+education:  10th
+  Count: 183
+  Precision: 1.0000
+  Recall: 0.0833
+  F-beta: 0.1538
+
+education:  11th
+  Count: 225
+  Precision: 1.0000
+  Recall: 0.2727
+  F-beta: 0.4286
+
+education:  12th
+  Count: 98
+  Precision: 1.0000
+  Recall: 0.4000
+  F-beta: 0.5714
+
+education:  1st-4th
+  Count: 23
+  Precision: 1.0000
+  Recall: 1.0000
+  F-beta: 1.0000
+
+education:  5th-6th
+  Count: 62
+  Precision: 1.0000
+  Recall: 0.5000
+  F-beta: 0.6667
+
+education:  7th-8th
+  Count: 141
+  Precision: 1.0000
+  Recall: 0.0000
+  F-beta: 0.0000
+
+education:  9th
+  Count: 115
+  Precision: 1.0000
+  Recall: 0.3333
+  F-beta: 0.5000
+
+education:  Assoc-acdm
+  Count: 198
+  Precision: 0.8182
+  Recall: 0.3830
+  F-beta: 0.5217
+
+education:  Assoc-voc
+  Count: 273
+  Precision: 0.9565
+  Recall: 0.3492
+  F-beta: 0.5116
+
+education:  Bachelors
+  Count: 1053
+  Precision: 0.7248
+  Recall: 0.8133
+  F-beta: 0.7665
+
+education:  Doctorate
+  Count: 77
+  Precision: 0.8393
+  Recall: 0.8246
+  F-beta: 0.8319
+
+education:  HS-grad
+  Count: 2085
+  Precision: 1.0000
+  Recall: 0.1884
+  F-beta: 0.3171
+
+education:  Masters
+  Count: 369
+  Precision: 0.8037
+  Recall: 0.8502
+  F-beta: 0.8263
+
+education:  Preschool
+  Count: 10
+  Precision: 1.0000
+  Recall: 1.0000
+  F-beta: 1.0000
+
+education:  Prof-school
+  Count: 116
+  Precision: 0.8391
+  Recall: 0.8690
+  F-beta: 0.8538
+
+education:  Some-college
+  Count: 1485
+  Precision: 0.9189
+  Recall: 0.2455
+  F-beta: 0.3875
+
