@@ -78,7 +78,7 @@ preds = inference(model, X_test)
 
 # Compute overall metrics
 precision, recall, fbeta = compute_model_metrics(y_test, preds)
-print(f"\nOverall Model Performance:")
+print("Overall Model Performance:")
 print(f"Precision: {precision:.4f}")
 print(f"Recall: {recall:.4f}")
 print(f"F-beta: {fbeta:.4f}")
@@ -94,7 +94,7 @@ slice_results = performance_on_categorical_slice(
 )
 
 # Write slice output to file
-print(f"Writing slice performance to slice_output.txt...")
+print("Writing slice performance to slice_output.txt...")
 with open("slice_output.txt", "w") as f:
     f.write(f"Model Performance on {slice_feature} Slices\n")
     f.write("=" * 80 + "\n\n")

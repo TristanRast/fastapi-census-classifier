@@ -69,7 +69,8 @@ def process_data(
         X_categorical = encoder.transform(X_categorical)
         try:
             y = lb.transform(y.values).ravel()
-        except AttributeError:
+        # had to add ValueError to prevent empty series error on y in inference mode
+        except (AttributeError, ValueError):
             pass
 
     X = pd.concat(

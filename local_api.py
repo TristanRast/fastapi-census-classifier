@@ -76,8 +76,4 @@ except Exception as e:
 
 print("\n" + "=" * 80)
 print("Testing complete!")
-print("\nMake sure to take a screenshot showing:")
-print("  - Successful status codes (200)")
-print("  - GET response message")
-print("  - POST predictions")
-print("Save as: screenshots/local_api.png")
+

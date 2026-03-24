@@ -32,7 +32,7 @@ def sample_data():
         'occupation': ['Adm-clerical', 'Exec-managerial', 'Handlers-cleaners',
                        'Handlers-cleaners', 'Prof-specialty'],
         'relationship': ['Not-in-family', 'Husband', 'Not-in-family',
-                        'Husband', 'Wife'],
+                         'Husband', 'Wife'],
         'race': ['White', 'White', 'White', 'Black', 'Black'],
         'sex': ['Male', 'Male', 'Male', 'Male', 'Female'],
         'capital-gain': [2174, 0, 0, 0, 0],
