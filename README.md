@@ -71,20 +71,7 @@ This will:
 - Save the model and encoder to `model/` directory
 - Generate `slice_output.txt` with performance metrics on data slices
 
-### 5. Run Tests
-
-```bash
-pytest tests/ -v
-```
-
-### 6. Check Code Quality
-
-```bash
-flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-```
-
-### 7. Run the API Locally
+### 5. Run the API locally
 
 Terminal 1 - Start the server:
 ```bash
@@ -104,7 +91,7 @@ Returns a welcome message.
 **Response:**
 ```json
 {
-  "greeting": "Welcome to the ML Model API!"
+  "greeting": "Welcome to the ML Model API"
 }
 ```
 
@@ -143,14 +130,6 @@ Performs model inference on input data.
 See `model_card.md` for detailed model documentation and performance metrics.
 
 See `slice_output.txt` for performance breakdown across categorical feature slices.
-
-## CI/CD
-
-This project uses GitHub Actions for continuous integration. On every push to main/master:
-- Code is checked with flake8
-- All unit tests are run with pytest
-
-See `.github/workflows/python-app.yml` for the CI configuration.
 
 ## License
 
